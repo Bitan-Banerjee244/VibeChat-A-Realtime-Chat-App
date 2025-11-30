@@ -4,6 +4,7 @@ import Signup from "@/components/Signup";
 import Login from "@/components/Login";
 import { Routes, Route } from "react-router-dom";
 import Otp from "@/components/Otp";
+import ChangePassword from "@/components/ChangePassword";
 
 function AuthPage() {
   return (
@@ -28,8 +29,9 @@ function AuthPage() {
                 alt="loginImage"
                 className="w-full h-full overflow-hidden rounded-[inherit] opacity-70"
               />
-              <span className="absolute left-20 bottom-20 text-3xl text-[#ffffff73]">
-                Access Your World in One Click.
+              <span className="absolute left-20 bottom-20 text-3xl text-[#ffffff73] leading-10">
+                Access Your World in One Click. <br />
+                Talk. Share. Connect.
               </span>
             </div>
           </div>
@@ -39,6 +41,7 @@ function AuthPage() {
             <Route path="/auth/login" element={<Login />} />
             <Route path="/auth/signup" element={<Signup />} />
             <Route path="/auth/verify" element={<Otp />} />
+            <Route path="/auth/changepassword" element={<ChangePassword />} />
           </Routes>
         </div>
       </div>

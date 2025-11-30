@@ -17,7 +17,7 @@ function Signup() {
   return (
     <>
       <div
-        id="loginForm"
+        id="signuppage"
         className="w-full lg:w-[45%]  h-[85%] lg:h-full text-white flex justify-center items-center
             bg-linear-to-b from-[#011227] via-[#170335]  to-[#0a001a68] p-6 rounded-2xl shadow-violet-950 shadow-sm "
       >

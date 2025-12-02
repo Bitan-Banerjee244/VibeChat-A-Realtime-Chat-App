@@ -1,10 +1,11 @@
 import AuthPage from "./pages/AuthPage";
+import SideBar from "./pages/SideBar";
 
 function App() {
   return (
     <div>
-      
-      <AuthPage />
+      {/* <AuthPage /> */}
+<SideBar/>
     </div>
   );
 }
